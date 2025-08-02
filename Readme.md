@@ -4,7 +4,7 @@ This is a **responsive login page** built using **HTML5**, **Bootstrap 5**, **Fo
 
 ## 📸 Preview
 
-![Login Preview]()
+![Login Preview](https://mininalloginmodel.netlify.app/)
 
 ## 🚀 Features
 
