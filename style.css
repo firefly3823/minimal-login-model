@@ -1,0 +1,98 @@
+*{
+    width: 100%;
+    padding: 0px;
+    font-family: 'Mulish', sans-serif;
+}
+body{
+    background-color: rgb(118, 120, 140);
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.login-card{
+    width:25rem;
+    /* border: 1px solid; */
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+    padding: 2rem;
+    position: relative;
+    background-color: #fff;
+
+}
+.icon-container{
+    width: 100%;
+    text-align: center;
+}
+.icon-container img{
+    width: 50px;
+}
+.dash-text{
+    font-weight: bold;
+    padding-top: 5px;
+}
+.icon-container h4{
+    font-weight: 800;
+}
+.top-text{
+    font-size: 13px;
+    padding-top: 4px;
+}
+
+.form-box{
+    font-size: 10px;
+}
+.label-section{
+    display: flex;
+}
+label, .forgot-pass{
+    font-size: 12px;
+    font-weight: 600;
+    display: inline;
+}
+.forgot-pass{
+    text-decoration: none;
+    text-align: end;
+
+}
+input[type="email"], input[type="password"] {
+    padding: 10px 12px;
+    border-radius: 10px;
+    border: .5px solid;
+}
+.login-form{
+    padding-top: 4px; 
+}
+.email-container{
+    padding-bottom: 30px;
+}
+.password-container{
+    position: relative;
+    padding-bottom: 30px;
+}
+.password-container i{
+    position: absolute;
+    left: 90%;
+    top:22px
+}
+.login-btn{
+    background-color: #3751ff;
+    color: white;
+    font-weight: bold;
+    transition: .2s ease;
+}
+.signup{
+    padding: 10px 12px;
+}
+.signup a,p{
+    text-align: center;
+    padding-top: 25px;
+}
+.login-btn:hover{
+    background-color: #3ebd24;
+}
